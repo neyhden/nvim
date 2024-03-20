@@ -13,3 +13,7 @@
 | mason-lspconfig | port between mason and nvim-lspconfig |
 | nvim-lspconfig | lsp configuration |
 | none-ls | formatting |
+| nvim-cmp | autocompletion client |
+| lua-snip | snippets for lua |
+| cmp-nvim-lsp | autompletion from lsp servers |
+| friendly-snippets | snippets for the languages |
