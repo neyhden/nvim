@@ -12,3 +12,4 @@
 | mason | install lsps |
 | mason-lspconfig | port between mason and nvim-lspconfig |
 | nvim-lspconfig | lsp configuration |
+| none-ls | formatting |
