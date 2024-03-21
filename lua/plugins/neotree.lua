@@ -7,6 +7,12 @@ return {
 		"MunifTanjim/nui.nvim",
 	},
 	config = function()
-		vim.keymap.set("n", "<leader>e", ":Neotree filesystem reveal left<CR>", {})
+		vim.keymap.set("n", "<leader>e", function()
+			require("neo-tree.command").execute({
+        toggle = false,
+				source = "filesystem",
+				position = "left",
+			})
+		end)
 	end,
 }

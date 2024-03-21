@@ -1,10 +1,12 @@
 # NeoVim configuration 
 
+My personal NeoVim configuration. Feel free to use it or whatever, not like it's the best one out there.
+
 ## Plugins
 
 | Plugin | Function |
 | ------ | -------- |
-| catppuccin | style |
+| kanagawa | style |
 | neotree | filesystem |
 | telescope | fuzzy file search |
 | treesitter | syntax tree |
@@ -17,3 +19,14 @@
 | lua-snip | snippets for lua |
 | cmp-nvim-lsp | autompletion from lsp servers |
 | friendly-snippets | snippets for the languages |
+
+
+### Deleted plugins
+
+Plugins I deleted because i preferred others or whatever reason.
+
+- catppuccin: Kanagawa just looks better imo
+
+## References
+
+- Made following [this](https://youtu.be/zHTeCSVAFNY?si=VCFsGdzgoU3j3pYg) tutorial *(it's actually good check it out)*
