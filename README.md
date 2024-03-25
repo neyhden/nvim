@@ -19,6 +19,7 @@ My personal NeoVim configuration. Feel free to use it or whatever, not like it's
 | lua-snip | snippets for lua |
 | cmp-nvim-lsp | autompletion from lsp servers |
 | friendly-snippets | snippets for the languages |
+| toggleterm | terminal inside nvim |
 
 
 ### Deleted plugins
