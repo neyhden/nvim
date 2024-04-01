@@ -7,7 +7,8 @@ vim.cmd("set number")
 vim.cmd("set showtabline=2")
 vim.cmd("set cindent")
 vim.cmd("set cinoptions=2")
+vim.keymap.set("n", "<C-z>", "u", {})
 
 vim.g.mapleader = " "
 
-vim.opt.relativenumber = true
+vim.opt.relativenumber = false
