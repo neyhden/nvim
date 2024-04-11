@@ -5,10 +5,10 @@ return {
   config = function()
     require("kanagawa").setup({
       commentStyle = { italic = false },
-      keywordStyle = { italic = false},
-      statementStyle = { bold = true },
+      -- keywordStyle = { italic = false},
+      -- statementStyle = { bold = true },
     })
-    vim.cmd("colorscheme kanagawa-dragon")
-    vim.cmd("highlight LineNr guibg=NONE guifg=#505050")
+    vim.cmd("colorscheme kanagawa-wave")
+    vim.cmd("highlight LineNr guibg=NONE guifg=#707070")
   end,
 }

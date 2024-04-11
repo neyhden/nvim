@@ -21,4 +21,4 @@ vim.keymap.set({"n", "v"}, "ge", "]}", {})
 
 vim.g.mapleader = " "
 
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
