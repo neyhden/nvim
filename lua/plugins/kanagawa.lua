@@ -5,6 +5,7 @@ return {
   config = function()
     require("kanagawa").setup({
       commentStyle = { italic = false },
+      transparent = true
       -- keywordStyle = { italic = false},
       -- statementStyle = { bold = true },
     })

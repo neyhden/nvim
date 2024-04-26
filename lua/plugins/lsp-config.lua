@@ -14,6 +14,7 @@ return {
 					"tsserver",
 					"clangd",
           "cssls",
+          "pyright",
 				},
 			})
 		end,
@@ -34,6 +35,9 @@ return {
 				capabilities = capabilities,
 			})
       lspconfig.cssls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.pyright.setup({
         capabilities = capabilities,
       })
 
