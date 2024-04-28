@@ -10,7 +10,6 @@ vim.cmd("set cinoptions=2")
 -- ctrl keymaps
 vim.keymap.set("n", "<C-z>", "u", {})
 vim.keymap.set("n", "<C-c>", "\"+yy", {})
-vim.keymap.set("n", "<C-v>", "\"+p", {})
 vim.keymap.set("v", "<C-c>", "\"+y", {})
 
 -- Change movements (jk) to their "go" version
