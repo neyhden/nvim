@@ -15,6 +15,8 @@ return {
 					"clangd",
           "cssls",
           "pyright",
+          "html",
+          "rust_analyzer",
 				},
 			})
 		end,
@@ -31,13 +33,18 @@ return {
 			lspconfig.tsserver.setup({
 				capabilities = capabilities,
 			})
-			lspconfig.clangd.setup({
-				capabilities = capabilities,
-			})
+      lspconfig.clangd.setup({
+      })
       lspconfig.cssls.setup({
         capabilities = capabilities,
       })
       lspconfig.pyright.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.html.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.rust_analyzer.setup({
         capabilities = capabilities,
       })
 
