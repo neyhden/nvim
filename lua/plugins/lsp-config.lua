@@ -13,10 +13,11 @@ return {
 					"lua_ls",
 					"tsserver",
 					"clangd",
-          "cssls",
-          "pyright",
-          "html",
-          "rust_analyzer",
+                    "cssls",
+                    "pyright",
+                    "html",
+                    "rust_analyzer",
+                    "solargraph",
 				},
 			})
 		end,
@@ -33,20 +34,24 @@ return {
 			lspconfig.tsserver.setup({
 				capabilities = capabilities,
 			})
-      lspconfig.clangd.setup({
-      })
-      lspconfig.cssls.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.pyright.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.html.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.rust_analyzer.setup({
-        capabilities = capabilities,
-      })
+          lspconfig.clangd.setup({
+            filetypes = { "c", "cpp" },
+          })
+          lspconfig.cssls.setup({
+            capabilities = capabilities,
+          })
+          lspconfig.pyright.setup({
+            capabilities = capabilities,
+          })
+          lspconfig.html.setup({
+            capabilities = capabilities,
+          })
+          lspconfig.rust_analyzer.setup({
+            capabilities = capabilities,
+          })
+          lspconfig.solargraph.setup({
+            capabilities = capabilities,
+          })
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})

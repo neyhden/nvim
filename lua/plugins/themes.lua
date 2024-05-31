@@ -1,4 +1,9 @@
 return {
+    {
+        "CodeGradox/onehalf-lush",
+        name = "onehalf",
+        priority = 1000,
+    },
   {
     "catppuccin/nvim",
     name = "catppuccin",
@@ -66,5 +71,13 @@ return {
       })
     end
   },
+    {
+        'AlexvZyl/nordic.nvim',
+        name = "nordic",
+        lazy = false,
+        priority = 1000,
+        config = function()
+        end
+    }
 }
 

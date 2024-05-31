@@ -22,6 +22,12 @@ return {
 					completion = cmp.config.window.bordered(),
 					documentation = cmp.config.window.bordered(),
 				},
+        formatting = {
+          format = function (entry, vim_item)
+            vim_item.abbr = string.sub(vim_item.abbr, 1, 30)
+            return vim_item
+          end
+        },
 				mapping = cmp.mapping.preset.insert({
 					["<C-b>"] = cmp.mapping.scroll_docs(-4),
 					["<C-f>"] = cmp.mapping.scroll_docs(4),

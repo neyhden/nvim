@@ -12,6 +12,9 @@ return {
         "kanagawa-wave",
         "kanagawa-dragon",
         "kanagawa-lotus",
+        "nordic",
+        "onehalf-lush",
+        "onehalf-lush-dark",
       },
       themeConfigFile = "~/.config/nvim/lua/plugins/themery.lua",
       livePreview = true,
@@ -20,8 +23,8 @@ return {
 
     -- Themery block
 -- This block will be replaced by Themery.
-vim.cmd("colorscheme catppuccin-macchiato")
-vim.g.theme_id = 2
+vim.cmd("colorscheme nordic")
+vim.g.theme_id = 10
 -- end themery block
   end
 }
