@@ -6,6 +6,7 @@ vim.cmd("set noswapfile")
 vim.cmd("set number")
 vim.cmd("set cindent")
 vim.cmd("set cinoptions=2")
+vim.cmd("set fillchars=eob:\\ ")
 -- ctrl keymaps
 vim.keymap.set("n", "<C-z>", "u", {})
 vim.keymap.set("n", "<C-c>", "\"+yy", {})
