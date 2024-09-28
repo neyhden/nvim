@@ -16,7 +16,6 @@ return {
         "onehalf-lush",
         "onehalf-lush-dark",
       },
-      themeConfigFile = "~/.config/nvim/lua/plugins/themery.lua",
       livePreview = true,
     })
 		vim.keymap.set("n", "<leader>T", ":Themery<CR>", {})
