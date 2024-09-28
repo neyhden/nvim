@@ -23,8 +23,8 @@ return {
 
     -- Themery block
 -- This block will be replaced by Themery.
-vim.cmd("colorscheme onehalf-lush-dark")
-vim.g.theme_id = 12
+vim.cmd("colorscheme catppuccin-mocha")
+vim.g.theme_id = 3
 -- end themery block
   end
 }

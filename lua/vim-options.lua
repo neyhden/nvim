@@ -11,6 +11,7 @@ vim.cmd("set fillchars=eob:\\ ")
 vim.keymap.set("n", "<C-z>", "u", {})
 vim.keymap.set("n", "<C-c>", "\"+yy", {})
 vim.keymap.set("v", "<C-c>", "\"+y", {})
+vim.keymap.set("n", "<C-V>", "\"+p", {})
 
 -- Change movements (jk) to their "go" version
 vim.keymap.set("n", "j", "gj", {})
